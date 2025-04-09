@@ -4,7 +4,7 @@ A hybrid recommendation system combining K-Nearest Neighbors (KNN) and K-Means c
 
 ## Features
 - **Dual Algorithm Approach**: Combines KNN for personalized recommendations + K-Means for genre clustering
-- **Spotify Dataset**: Uses Kaggle's Spotify Tracks Dataset (114k+ tracks)
+- **Spotify Dataset**: Uses Kaggle's Spotify Tracks Dataset (900K+ tracks)
 - **Web Interface**: Built with Django templates, HTML5, CSS3
 - **Machine Learning Integration**: Scikit-learn for model implementation
 - **Feature Analysis**: Danceability, Energy, Tempo, Valence, etc.
