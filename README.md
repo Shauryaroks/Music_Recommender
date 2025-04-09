@@ -16,25 +16,6 @@ A hybrid recommendation system combining K-Nearest Neighbors (KNN) and K-Means c
 - pandas 2.0+
 - numpy 1.24+
 
-## Installation
-
-
-
-## Project Structure
-
-music-recommender/
-├── recommender/ # Django app
-│ ├── ml_models/ # Trained models
-│ ├── templates/ # HTML templates
-│ ├── static/ # CSS/JS assets
-│ ├── utils.py # Recommendation logic
-│ └── views.py # Django views
-├── data/ # Spotify dataset
-├── manage.py
-└── requirements.txt
-
-## Implementation Details
-
 ### Recommendation System
 1. **Data Preprocessing**  
    - Normalize audio features using StandardScaler
